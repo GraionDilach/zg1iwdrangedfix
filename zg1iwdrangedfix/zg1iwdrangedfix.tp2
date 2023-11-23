@@ -1,0 +1,24 @@
+BACKUP ~weidu_external/zg1iwdrangedfix/backup~ // location to store files for uninstall purposes
+AUTHOR ~Graion Dilach~
+VERSION ~1~
+
+BEGIN ~Attempt to fix IWDification random ranged weapons~
+LABEL ZG-IWDIFICATION-RANDOM-RANGEDFIX
+
+// clone the standard weapons into the dummy ITMs
+
+	COPY_EXISTING ~xbow04.itm~ ~override/cdrdcbth.itm~
+
+	COPY_EXISTING ~bow01.itm~ ~override/cdrdclbw.itm~
+	
+	COPY_EXISTING ~bow05.itm~ ~override/cdrdsbth.itm~
+
+	COPY_EXISTING ~xbow01.itm~ ~override/cdrdcbhv.itm~
+	
+	COPY_EXISTING ~bow03.itm~ ~override/cdrdlbw.itm~
+	
+	COPY_EXISTING ~xbow04.itm~ ~override/cdrdcblt.itm~
+	
+	COPY_EXISTING ~bow05.itm~ ~override/cdrdsbow.itm~
+	
+	COPY_EXISTING ~bow03.itm~ ~override/cdrdcb5.itm~
